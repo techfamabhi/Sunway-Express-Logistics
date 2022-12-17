@@ -1,0 +1,130 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#contact h6{
+    color: #2F3264;
+    font-weight: bold;
+}
+#h2 {
+	
+	
+	
+    font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	
+}
+{
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a, a:hover {
+    text-decoration: none !important; }
+
+#contact .text-black {
+  color: #000; }
+
+#contact .content {
+  padding: 7rem 0; }
+
+#contact .heading {
+  font-size: 2.5rem;
+  font-weight: 900; }
+
+#contact .form-control {
+  border: none;
+  background: #f3f3f3; }
+  .form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+    background: #f3f3f3; }
+
+#contact .col-form-label {
+  color: #000; }
+
+#contact .btn, .form-control, .custom-select {
+  height: 50px; }
+
+#contact .custom-select:active, .custom-select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000; }
+
+#contact .btn {
+  border: none;
+  border-radius: 4px !important; }
+  .btn.btn-primary {
+    background: #000;
+    color: #fff;
+    padding: 15px 20px; }
+  .btn:hover {
+    color: #fff; }
+  .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+#contact .box {
+  padding: 40px;
+  background: #fff;
+  -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08); }
+#contact .box h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center; }
+
+#contact  label.error {
+  font-size: 12px;
+  color: red; }
+
+#contact  #message {
+  resize: vertical; }
+
+#contact  #form-message-warning, #form-message-success {
+  display: none; }
+
+#contact  #form-message-warning {
+  color: #B90B0B; }
+
+#contact  #form-message-success {
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold; }
+
+#contact  .submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000; }
+
+  #contact .bannerhead{
+    /* filter: brightness(70%); */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgb(0 0 0 / 64%)), url("../Images/b2.jfif");
+    height: 120px;
+    
+  }
+
+  #contact .bannerhead h2{
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 50px;
+    padding: 30px 130px;
+}
+
+@media only screen and (max-width: 600px) {
+  #contact.bannerhead h2{
+        font-weight: 700;
+        text-transform: capitalize;
+        font-size: 40px;
+        text-align: center;
+        padding: 35px;
+    }
+  }

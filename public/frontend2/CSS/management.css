@@ -1,0 +1,66 @@
+#management .card{
+    background-color: whitesmoke;
+    margin: 20px;
+    border: none;
+}
+
+#management .card-body{
+    height: 230px;
+}
+
+#management .card-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Lora;
+    font-size: 40px;
+    color: #2f3264;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    padding-left: 100px;
+    
+}
+#managetext1{
+    text-align: center !important;
+}
+#management .card-text{
+    font-family: Lora;
+    font-size: 22px;
+    color: #2f3264;
+    text-align: center;
+    padding: 10px 100px;
+   
+}
+
+
+.bannerhead{
+    /* filter: brightness(70%); */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgb(0 0 0 / 64%)), url("../Images/b2.jfif");
+    height: 120px;
+  }
+#management_title1{
+    color: #2f3264;
+}
+.bannerhead h2{
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 50px;
+    padding: 30px 130px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bannerhead h2{
+        font-weight: 700;
+        text-transform: capitalize;
+        font-size: 40px;
+        text-align: center;
+        padding: 30px;
+    }
+    #management .card-text{
+        padding: 0px;
+    }
+    #management .card-body{
+        height: auto;
+    }
+  }
